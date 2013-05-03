@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)http://learn.parallax.com/kickstart/29133 -->
+<html lang="en" dir="ltr" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" class="js"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<link rel="shortcut icon" href="http://learn.parallax.com/sites/default/files/RedCheck.png" type="image/png">
+<meta content="Compass Module 3-Axis HMC5883L" about="/KickStart/29133" property="dc:title">
+<link rel="canonical" href="http://learn.parallax.com/KickStart/29133">
+<meta name="Generator" content="Drupal 7 (http://drupal.org)">
+<link rel="shortlink" href="http://learn.parallax.com/node/321">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="MobileOptimized" content="width">
+<meta name="HandheldFriendly" content="true">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="cleartype" content="on">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<title>Compass Module 3-Axis HMC5883L | learn.parallax.com</title>
+<link type="text/css" rel="stylesheet" href="./Kickstart Example_files/css_CKoWqiBj9gVXhPuDSnNphuEB0b0J2To76x0pX0EGqn4.css" media="all">
+<link type="text/css" rel="stylesheet" href="./Kickstart Example_files/css_72mmUNqAcm1Vw-3f93p8mgj3b3zvluUWpD8asbiQYtw.css" media="all">
+<link type="text/css" rel="stylesheet" href="./Kickstart Example_files/css_L9DlDeYSMj2TyMjJuGgObWDWFwt8T0VdOD3gSSdA1cY.css" media="all">
+<link type="text/css" rel="stylesheet" href="./Kickstart Example_files/css_RfI5io1KD5uNJ-Qd7PfPjKzzWU6QJ-bnhMf1SYFwCDY.css" media="all">
+<link type="text/css" rel="stylesheet" href="./Kickstart Example_files/css_FpAdjoDeDrKkSU7vug46fvlyuc_RtdVkBK3u1vhfjjc.css" media="screen">
+<script type="text/javascript" async="" src="./Kickstart Example_files/ga.js"></script><script src="./Kickstart Example_files/js_3jHghlMLrjr9xXAC0JufqSSch3oAbkZstSqYdc4uuck.js"></script>
+<script src="./Kickstart Example_files/js_XvZ0RrxZLHLxItg0vlhrc8bnF7vxYX7tuaMpooGXvbw.js"></script>
+<script src="./Kickstart Example_files/js_HVC-uaMVNXeksyXgpNKfkqsVyshZ9D6T4_rdNdoO43c.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"pixture_reloaded","theme_token":"ogsm5PKHCsE18AkvLq8o0wukWR1PAzaqBaSCssJ5KcM","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/vertical-tabs.js":1,"sites\/all\/modules\/google_analytics\/js\/google_analytics.js":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/adaptivetheme\/js\/respond.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/ckedit_styles\/css\/learn_ckedit_styles.css":1,"modules\/book\/book.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/poll\/poll.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/print\/css\/printlinks.css":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/adaptivetheme\/css\/at.base.css":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/adaptivetheme\/css\/at.layout.css":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/adaptivetheme\/css\/at.messages.css":1,"sites\/all\/themes\/pixture_reloaded\/color\/colors.css":1,"sites\/all\/themes\/pixture_reloaded\/css\/pixture_reloaded.css":1,"sites\/all\/themes\/pixture_reloaded\/css\/pixture_reloaded.settings.style.css":1,"public:\/\/at_css\/pixture_reloaded.responsive.layout.css":1,"sites\/all\/themes\/pixture_reloaded\/css\/pixture_reloaded.responsive.style.css":1,"sites\/all\/themes\/pixture_reloaded\/css\/pixture_reloaded.responsive.gpanels.css":1}}});</script>
+<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<style type="text/css"></style></head>
+<body class="html not-front not-logged-in two-sidebars page-node page-node- page-node-321 page-type-kickstarts section-kickstart color-scheme-custom pixture-reloaded fs-medium bs-n bb-n mb-dd mbp-c rc-4 ia-n bf-ssl snf-sl ssf-sl ptf-sl ntf-sl ctf-sl btf-sl hs-ts">
+  <div id="skip-link">
+    <a href="http://learn.parallax.com/kickstart/29133#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div class="texture-overlay">
+  <div id="page" class="container">
+
+    <header id="header" class="clearfix" role="banner">
+      <div class="header-inner clearfix">
+        <div id="branding">
+                      <div id="logo"><a href="http://learn.parallax.com/" title="Home page"><img src="./Kickstart Example_files/ParallaxLogo100.png" alt="learn.parallax.com logo"></a></div>
+                                <hgroup>
+                              <h1 id="site-name"><a href="http://learn.parallax.com/" title="Home page">learn.parallax.com</a></h1>
+                                        </hgroup>
+                  </div>
+          <div class="region region-header">
+    <div id="block-search-form" class="block block-search block-odd block-count-1 block-region-header" role="search">
+  <div class="block-inner clearfix">
+                <div class="block-content content">
+      <form action="http://learn.parallax.com/KickStart/29133" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="search" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text">
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit"></div><input type="hidden" name="form_build_id" value="form-H8ERqlUy5FASEpemCD7wjspgaD2RStBVst02IBqMGNs">
+<input type="hidden" name="form_id" value="search_block_form">
+</div>
+</div></form>    </div>
+  </div>
+</div>
+  </div>
+ <!-- /header region -->
+      </div>
+    </header> <!-- /header -->
+
+      <div id="menu-bar" class="nav clearfix">
+      <nav id="block-system-main-menu" class="block block-system block-menu block-odd block-count-2 block-region-menu-bar clearfix">
+              <h2 class="block-title element-invisible">Main Menu</h2>
+            <div class="menu-wrapper clearfix"><ul class="menu clearfix"><li class="first leaf menu-item-1493"><a href="http://learn.parallax.com/learn/home" title="">LEARN</a></li><li class="leaf menu-item-1443"><a href="http://learn.parallax.com/projects" title="">PROJECTS</a></li><li class="leaf menu-item-1464"><a href="http://learn.parallax.com/contest/home" title="">CONTESTS</a></li><li class="leaf menu-item-1484"><a href="http://learn.parallax.com/inspiration/home" title="">INSPIRATION</a></li><li class="leaf menu-item-1232"><a href="http://learn.parallax.com/events" title="">CLASSES &amp; EVENTS</a></li><li class="last leaf menu-item-1535"><a href="http://www.parallax.com/" title="">PARALLAX STORE</a></li></ul></div>
+  </nav>
+  </div>
+ <!-- /menu bar -->
+
+     <!-- /message -->
+     <!-- /help -->
+
+          <nav id="breadcrumb"><h2 class="element-invisible">You are here</h2><ol id="crumbs"><li class="crumb"><a href="http://learn.parallax.com/">Home</a></li></ol></nav> <!-- /breadcrumb -->
+    
+     <!-- /secondary-content -->
+
+    <!-- Three column 3x33 Gpanel -->
+    
+    <div id="columns"><div class="columns-inner clearfix">
+      <div id="content-column"><div class="content-inner">
+
+         <!-- /highlight -->
+
+                <section id="main-content" role="main">
+
+                                <header class="clearfix">
+                              <h1 id="page-title">Compass Module 3-Axis HMC5883L</h1>
+                                        </header>
+                    
+            <div class="region region-content">
+    <div id="block-system-main" class="block block-system block-odd block-count-3 block-region-content">
+  <div class="block-inner clearfix">
+                <div class="block-content content">
+      <article id="article-321" class="article article-type-kickstarts odd article-full clearfix" about="/KickStart/29133" typeof="sioc:Item foaf:Document" role="article">
+
+  
+      
+      <footer class="submitted">
+            <p class="author-datetime"><span property="dc:date dc:created" content="2012-05-10T11:35:19-07:00" datatype="xsd:dateTime" rel="sioc:has_creator">Submitted by <span class="username" xml:lang="" about="/user/48" typeof="sioc:UserAccount" property="foaf:name">Gordon McComb</span> on <time datetime="2012-05-10T11:35:19Z" pubdate="pubdate">Thu, 05/10/2012 - 11:35</time></span></p>
+    </footer>
+  
+  <div class="article-content">
+  <span class="print-link"></span><div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even" property="content:encoded"><p><img alt="Compass Module 3-Axis HMC5883L from Parallax Inc. (#29133)" src="./Kickstart Example_files/Compass-1.png" title="Compass Module 3-Axis HMC5883L from Parallax Inc. (#29133)" height="275" width="300"></p>
+<p><strong>Item code: 29133</strong></p>
+<hr>
+<h2>What It Can Do</h2>
+<ul>
+<li>Measures the earth’s magnetic field in three axes, with a 1–2 degree accuracy</li>
+<li>Provides individual readings for each axis, which may be used separately or together for 3D calculations</li>
+<li>Measures raw strength (gauss) of a nearby magnetic source</li>
+</ul>
+<p>The 3-Axis Compass module measures magnetic fields in three directions – or axes, labeled X, Y, and Z. In its most simple form, the module can be used as a basic compass to find earth’s magnetic north.</p>
+<p>The compass module can also sense the relative strength of a nearby magnetic source, such as those caused by magnets or electric fields. As the sensor detects magnetism in three dimensions, it can determine relative distance and direction to these sources.</p>
+<p><img alt="X, Y, and Z axes for the Compass Module" src="./Kickstart Example_files/Compass-2.png" title="X, Y, and Z axes for the Compass Module" height="190" width="224"></p>
+<p><span class="notebox">Compasses are commonly uses with accelerometers, where the data from both the compass and accelerometer can provide extended information. One application of adding an accelerometer is to compensate for any tilt of the compass. As with most any compass, the reading is affected if the compass is not level. The <a href="http://www.parallax.com/tabid/768/ProductID/93/Default.aspx" target="_blank">Memsic 2125 Dual-axis Accelerometer</a> and <a href="http://www.parallax.com/tabid/768/ProductID/585/Default.aspx" target="_blank">MMA7455 3-Axis Accelerometer Module</a> are good companion accelerometers for the 3-Axis Compass module.</span></p>
+<hr>
+<h2>Parts List</h2>
+<ul>
+<li>3-Axis Compass module</li>
+<li>BASIC Stamp HomeWork Board, Propeller BOE, Propeller QuickStart, or Arduino Uno microcontroller (with breadboard, as needed)</li>
+<li>22 gauge solid conductor hookup wire</li>
+</ul>
+<hr>
+<h2>Basic Wiring</h2>
+<p><img alt="Compass Module wiring diagram, data, clock, power" src="./Kickstart Example_files/Compass-3.png" title="Compass Module wiring diagram, data, clock, power" height="235" width="279"></p>
+<ul>
+<li>Power Requirements: 2.7 to 6.5 VDC</li>
+<li>Communication Interface: I2C (up to 400 kHz)</li>
+<li>Dimensions: 0.725 x 0.650 in (1.8 x 1.7 cm)</li>
+</ul>
+<hr>
+<h2>Program KickStarts</h2>
+<p>The KickStart examples display raw data output for each of the three axes. Values are retrieved from the module using the I2C interface.</p>
+<h3>BASIC Stamp HomeWork Board</h3>
+<p><img alt="Compass Module wiring diagram for BASIC Stamp HomeWork Board" src="./Kickstart Example_files/Compass-4.png" title="Compass Module wiring diagram for BASIC Stamp HomeWork Board" height="299" width="290"></p>
+<p><a class="BS2" href="http://learn.parallax.com/sites/default/files/content/kickstart/code/Compass-BS2.bs2" title="Download BASIC Stamp 2 code for the Compass Module">Download BASIC Stamp 2 code for the Compass Module</a></p>
+<pre class="BS2">' {$STAMP BS2}
+' {$PBASIC 2.5}
+
+SDA            PIN      0          ' SDA of compass to pin P0
+SCL            PIN      1          ' SCL of compass to pin P1
+
+WRITE_Data     CON     $3C         ' Requests Write operation
+READ_Data      CON     $3D         ' Requests Read operation
+MODE           CON     $02         ' Mode setting register
+X_MSB          CON     $03         ' X MSB data output register
+
+X              VAR      Word
+Y              VAR      Word
+Z              VAR      Word
+rawl           VAR      Word
+rawh           VAR      Word
+
+' Variables for I2C communications
+I2C_DATA       VAR      Byte
+I2C_LSB        VAR      Bit
+I2C_REG        VAR      Byte
+I2C_VAL        VAR      Byte
+
+
+PAUSE 100                           ' Power up delay
+I2C_REG = MODE                      ' Set operating mode to continuous
+I2C_VAL = $0
+GOSUB I2C_Write_Reg
+
+DO
+  GOSUB GetRawReading               ' Get raw Compass reading
+  DEBUG HOME, "X = ",11, SDEC x, CR ' Print values
+  DEBUG       "Y = ",11, SDEC y, CR
+  DEBUG       "Z = ",11, SDEC z, CR
+  DEBUG CR
+LOOP
+
+GetRawReading:
+  PAUSE 400                         ' Wait for new data
+
+  ' Send request to X MSB register
+  GOSUB I2C_Start
+  I2C_DATA = WRITE_Data
+  GOSUB I2C_Write
+  I2C_DATA = X_MSB
+  GOSUB I2C_Write
+  GOSUB I2C_Stop
+
+  'Get data from register (6 bytes total, 2 bytes per axis)
+  GOSUB I2C_Start
+  I2C_DATA = READ_Data
+  GOSUB I2C_Write
+
+  ' Get X
+  GOSUB I2C_Read
+  rawH = I2C_Data
+  GOSUB I2C_ACK
+  GOSUB I2C_Read
+  rawL = I2C_Data
+  GOSUB I2C_ACK
+  X = (rawH &lt;&lt; 8) | rawL
+
+  ' Get Z
+  GOSUB I2C_Read
+  rawH = I2C_Data
+  GOSUB I2C_ACK
+  GOSUB I2C_Read
+  rawL = I2C_Data
+  GOSUB I2C_ACK
+  Z = (rawH &lt;&lt; 8) | rawL
+
+  ' Get Y
+  GOSUB I2C_Read
+  rawH = I2C_Data
+  GOSUB I2C_ACK
+  GOSUB I2C_Read
+  rawL = I2C_Data
+  GOSUB I2C_NACK
+  Y = (rawH &lt;&lt; 8) | rawL
+
+  GOSUB I2C_Stop
+
+RETURN
+
+
+'---------I2C functions------------
+' Set I2C_REG &amp; I2C_VAL before calling this
+I2C_Write_Reg:
+  GOSUB I2C_Start
+  I2C_DATA = WRITE_DATA
+  GOSUB I2C_Write
+  I2C_DATA = I2C_REG
+  GOSUB I2C_Write
+  I2C_DATA = I2C_VAL
+  GOSUB I2C_Write
+  GOSUB I2C_Stop
+RETURN
+
+' Set I2C_REG before calling this, I2C_DATA will have result
+I2C_Read_Reg:
+  GOSUB I2C_Start
+  I2C_DATA = WRITE_DATA
+  GOSUB I2C_Write
+  I2C_DATA = I2C_REG
+  GOSUB I2C_Write
+  GOSUB I2C_Stop
+  GOSUB I2C_Start
+  I2C_DATA = READ_DATA
+  GOSUB I2C_Write
+  GOSUB I2C_Read
+  GOSUB I2C_NACK
+  GOSUB I2C_Stop
+RETURN
+
+I2C_Start:
+  LOW SDA
+  LOW SCL
+RETURN
+
+I2C_Stop:
+  LOW   SDA
+  INPUT SCL
+  INPUT SDA
+RETURN
+
+I2C_ACK:
+  LOW   SDA
+  INPUT SCL
+  LOW   SCL
+  INPUT SDA
+RETURN
+
+I2C_NACK:
+  INPUT SDA
+  INPUT SCL
+  LOW   SCL
+RETURN
+
+I2C_Read:
+  SHIFTIN SDA, SCL, MSBPRE, [I2C_DATA]
+RETURN
+
+I2C_Write:
+  I2C_LSB = I2C_DATA.BIT0
+  I2C_DATA = I2C_DATA / 2
+  SHIFTOUT SDA, SCL, MSBFIRST, [I2C_DATA\7]
+  IF I2C_LSB THEN INPUT SDA ELSE LOW SDA
+  INPUT SCL
+  LOW SCL
+  INPUT SDA
+  INPUT SCL
+  LOW SCL
+RETURN</pre><p><span class="notebox">When this program is run, the BASIC Stamp Debug Terminal will automatically open.</span></p>
+<h3>Propeller BOE and Propeller QuickStart</h3>
+<h6><img alt="Compass Module wiring diagram for Propeller BOE" src="./Kickstart Example_files/Compass-PropBOE.png" title="Compass Module wiring diagram for Propeller BOE" height="344" width="290"><br><em>Propeller BOE Wiring Diagram</em></h6>
+<p>&nbsp;</p>
+<hr>
+<h6><img alt="Compass Module wiring diagram for Propeller QuickStart board" src="./Kickstart Example_files/Compass-5.png" title="Compass Module wiring diagram for Propeller QuickStart board" height="398" width="361"><br><em>Propeller QuickStart Wiring Diagram</em></h6>
+<p><a class="Spin" href="http://learn.parallax.com/sites/default/files/content/kickstart/code/Compass-Propeller.zip" title="Download Propeller Spin code for the Compass Module">Download Propeller Spin code for the Compass Module</a></p>
+<pre class="Spin">OBJ
+
+    pst       :   "FullDuplexSerial"   ' Comes with Propeller Tool
+
+CON
+
+  _clkmode      = xtal1 + pll16x
+  _clkfreq      = 80_000_000
+
+  datapin  = 1         ' SDA of compass to pin P1 
+  clockPin = 0         ' SCL of compass to pin P0
+ 
+  WRITE_DATA     = $3C ' Requests Write operation 
+  READ_DATA      = $3D ' Requests Read operation
+  MODE           = $02 ' Mode setting register
+  OUTPUT_X_MSB   = $03 ' X MSB data output register  
+
+VAR
+
+  long x
+  long y
+  long z
+         
+PUB Main
+
+  waitcnt(clkfreq/100_000 + cnt)     ' Power up delay
+  pst.start(31, 30, 0, 115200)
+  SetCont
+  repeat
+    SetPointer(OUTPUT_X_MSB)
+    getRaw                           ' Gather raw data from compass       
+    pst.tx(1)
+    ShowVals
+
+PUB SetCont
+  ' Sets compass to continuous output mode
+ 
+  start
+  send(WRITE_DATA)
+  send(MODE)
+  send($00)
+  stop
+
+PUB SetPointer(Register)
+  ' Start pointer at user specified register (OUT_X_MSB)
+
+  start
+  send(WRITE_DATA)
+  send(Register)
+  stop
+
+PUB GetRaw 
+  ' Get raw data from continuous output
+
+  start
+  send(READ_DATA)
+  x := ((receive(true) &lt;&lt; 8) | receive(true))
+  z := ((receive(true) &lt;&lt; 8) | receive(true))
+  y := ((receive(true) &lt;&lt; 8) | receive(false))
+  stop
+  ~~x
+  ~~z
+  ~~y
+  x := x       
+  z := z 
+  y := y 
+
+PUB ShowVals
+  ' Display XYZ compass values
+        
+  pst.str(string("X="))        
+  pst.dec(x)
+  pst.str(string(", Y="))
+  pst.dec(y)
+  pst.str(string(", Z="))
+  pst.dec(z)
+  pst.str(string("    ")) 
+
+PRI send(value)
+
+  value := ((!value) &gt;&lt; 8)
+
+  repeat 8
+    dira[dataPin]  := value
+    dira[clockPin] := false
+    dira[clockPin] := true
+    value &gt;&gt;= 1
+
+  dira[dataPin]  := false
+  dira[clockPin] := false
+  result         := !(ina[dataPin])
+  dira[clockPin] := true
+  dira[dataPin]  := true
+
+PRI receive(aknowledge)
+
+  dira[dataPin] := false
+
+  repeat 8
+    result &lt;&lt;= 1
+    dira[clockPin] := false
+    result         |= ina[dataPin]
+    dira[clockPin] := true
+
+  dira[dataPin]  := aknowledge
+  dira[clockPin] := false
+  dira[clockPin] := true
+  dira[dataPin]  := true
+
+PRI start
+
+  outa[dataPin]  := false
+  outa[clockPin] := false
+  dira[dataPin]  := true
+  dira[clockPin] := true
+
+PRI stop
+
+  dira[clockPin] := false
+  dira[dataPin]  := false</pre><p><span class="notebox">To view the results of the demonstration, after uploading is complete run the Parallax Serial Terminal from the Run menu or press F12. Click the Enable button, and momentarily depress the Reset button on the Propeller QuickStart board to restart the program.</span></p>
+<h3>Arduino Uno</h3>
+<p><img alt="Compass Module wiring diagram for Arduino Uno" src="./Kickstart Example_files/Compass-6_0.png" title="Compass Module wiring diagram for Arduino Uno" height="296" width="549"></p>
+<p><a class="Arduino" href="http://learn.parallax.com/sites/default/files/content/kickstart/code/Compass_Arduino_10.zip" title="Download Arduino 1.0 Code for the Compass Module">Download Arduino 1.0 Code for the Compass Module</a></p>
+<p><a class="Arduino" href="http://learn.parallax.com/sites/default/files/content/kickstart/code/Compass_Arduino.zip" title="Download Arduino Pre-release Version Code for the Compass Module">Download Arduino Pre-release Version Code for the Compass Module</a></p>
+<pre class="Arduino">#include &lt;Wire.h&gt;
+
+#define Addr 0x1E               // 7-bit address of HMC5883 compass
+
+void setup() {
+  Serial.begin(9600);
+  delay(100);                   // Power up delay
+  Wire.begin();
+  
+  // Set operating mode to continuous
+  Wire.beginTransmission(Addr); 
+  Wire.write(byte(0x02));
+  Wire.write(byte(0x00));
+  Wire.endTransmission();
+}
+
+void loop() {
+  int x, y, z;
+
+  // Initiate communications with compass
+  Wire.beginTransmission(Addr);
+  Wire.write(byte(0x03));       // Send request to X MSB register
+  Wire.endTransmission();
+
+  Wire.requestFrom(Addr, 6);    // Request 6 bytes; 2 bytes per axis
+  if(Wire.available() &lt;=6) {    // If 6 bytes available
+    x = Wire.read() &lt;&lt; 8 | Wire.read();
+    z = Wire.read() &lt;&lt; 8 | Wire.read();
+    y = Wire.read() &lt;&lt; 8 | Wire.read();
+  }
+  
+  // Print raw values
+  Serial.print("X=");
+  Serial.print(x);
+  Serial.print(", Y=");
+  Serial.print(y);
+  Serial.print(", Z=");
+  Serial.println(z);
+  
+  delay(500);
+}</pre><p><span class="notebox">To view the results of the demonstration, after uploading is complete click the Serial Monitor icon in the Arduino IDE. This displays the Serial Monitor window. Momentarily depress the Reset button on the Arduino board to restart the sketch.</span></p>
+<hr>
+<h2>For More Information</h2>
+<h3>Useful links:</h3>
+<ul>
+<li><a href="http://www.parallax.com/tabid/768/ProductID/779/Default.aspx" target="_blank">3-Axis Compass data sheet and application notes</a></li>
+<li>More information on magnetometers and other forms of digital compasses may be found on <a href="http://en.wikipedia.org/wiki/Magnetometer" target="_blank">Wikipedia: Magnetometer</a></li>
+</ul>
+<hr>
+<p>&nbsp;</p>
+</div></div></div><div class="field field-name-field-cc-sa field-type-taxonomy-term-reference field-label-hidden view-mode-full clearfix">
+    <ul class="field-items">
+          <li class="field-item even">
+        Copyright: Creative Commons 3.0 SA license      </li>
+      </ul>
+</div>
+  </div>
+
+      <nav class="clearfix"><ul class="links inline"><li class="print_html first last"><a href="http://learn.parallax.com/print/321" title="Display a printer-friendly version of this page." class="print-page" rel="nofollow">Printer-friendly version</a></li></ul></nav>
+  
+  
+</article>
+    </div>
+  </div>
+</div>
+  </div>
+ <!-- /content -->
+
+           <!-- /feed icons -->
+
+        </section> <!-- /main-content -->
+
+         <!-- /content-aside -->
+
+      </div></div> <!-- /content-column -->
+
+        <div class="region region-sidebar-first sidebar">
+    <nav id="block-menu-menu-learn" class="block block-menu block-odd block-count-4 block-region-sidebar-first" role="navigation">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Learn</h2>
+            <div class="block-content content">
+      <ul class="menu clearfix"><li class="first leaf menu-item-1504"><a href="http://learn.parallax.com/learn/home" title="">Learn Home</a></li><li class="collapsed menu-item-1487"><a href="http://learn.parallax.com/propeller-board-education" title="">Propeller BOE Tutorials</a></li><li class="collapsed menu-item-1488"><a href="http://learn.parallax.com/BOEShield" title="">BOE Shield Tutorials</a></li><li class="leaf menu-item-1486"><a href="http://learn.parallax.com/KickStart" title="">Microcontroller KickStarts</a></li><li class="last leaf menu-item-1494"><a href="http://learn.parallax.com/reference/home">Reference</a></li></ul>    </div>
+  </div>
+</nav>
+<section id="block-block-5" class="block block-block block-even block-count-5 block-region-sidebar-first">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">BASIC Stamp Resources</h2>
+            <div class="block-content content">
+      <p><a href="http://www.parallax.com/basicstampsoftware" target="_blank">Download the BASIC Stamp Editor►</a></p>
+<p><a href="http://www.parallax.com/go/BASICStampStartHelp" target="_blank">Connect &amp; Test your Board►</a></p>
+<p><a href="http://www.parallax.com/go/BASICStampConnectHelp" target="_blank">Connection Troubleshooting►</a></p>
+<p><a href="http://www.parallax.com/go/PBASICHelp" target="_blank">PBASIC Language Reference►</a></p>
+<p><a href="http://www.parallax.com/tabid/136/ProductID/313/Default.aspx" target="_blank">Buy a BASIC Stamp kit►</a></p>
+<p><a href="http://www.parallax.com/go/wam" target="_blank">What's a Microcontroller?►</a></p>
+<p><a href="http://www.parallax.com/go/boe-bot" target="_blank">Robotics with the Boe-Bot►</a></p>
+    </div>
+  </div>
+</section>
+<section id="block-block-6" class="block block-block block-odd block-count-6 block-region-sidebar-first">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Propeller BOE Resources</h2>
+            <div class="block-content content">
+      <p><a href="http://www.parallax.com/propboe" target="_blank">Buy a Propeller Board of Education</a><a href="http://www.parallax.com/propboe">►</a></p>
+<p><a href="http://www.parallax.com/propellertool" target="_blank">Download Propeller Tool Software</a><a href="http://www.parallax.com/propellertool">►</a></p>
+<p><a href="http://www.parallax.com/propeller/qna" target="_blank">Open the Propeller Q &amp; A</a><a href="http://www.parallax.com/propeller/qna">►</a></p>
+<p><a href="http://www.parallax.com/propeller"><span id="cke_bm_69E" style="display: none;">&nbsp;</span></a></p>
+    </div>
+  </div>
+</section>
+<section id="block-block-7" class="block block-block block-even block-count-7 block-region-sidebar-first">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">BOE Shield Resources</h2>
+            <div class="block-content content">
+      <p><a href="http://www.parallax.com/BOEShield" target="_blank">Buy a BOE Shield►</a></p>
+<p><a href="http://www.arduino.cc/" target="_blank">Download Arduino Software►</a></p>
+<p><a href="http://arduino.cc/en/Reference/HomePage" target="_blank">Open Arduino Reference►</a></p>
+<p><a href="http://www.robotc.net/download/arduino/" target="_blank">Download ROBOTC for Arduino►</a></p>
+    </div>
+  </div>
+</section>
+  </div>
+        <div class="region region-sidebar-second sidebar">
+    <nav id="block-menu-menu-micrcontroller-kickstarts" class="block block-menu block-odd block-count-8 block-region-sidebar-second" role="navigation">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Microcontroller KickStarts</h2>
+            <div class="block-content content">
+      <ul class="menu clearfix"><li class="first leaf menu-item-898"><a href="http://learn.parallax.com/KickStart">Microcontroller KickStarts Home</a></li><li class="leaf menu-item-1247"><a href="http://learn.parallax.com/KickStart/27800">2-Axis Joystick</a></li><li class="leaf menu-item-1258"><a href="http://learn.parallax.com/KickStart/27977">2x16 Serial LCD (Backlit) with Speaker</a></li><li class="leaf menu-item-1294"><a href="http://learn.parallax.com/KickStart/28036">4-Directional Tilt Sensor</a></li><li class="leaf menu-item-1259"><a href="http://learn.parallax.com/KickStart/27801">5-Position Switch</a></li><li class="leaf menu-item-1249"><a href="http://learn.parallax.com/KickStart/29124">Altimeter Module</a></li><li class="leaf active-trail menu-item-1250"><a href="http://learn.parallax.com/KickStart/29133" class="active-trail active">Compass Module 3-Axis</a></li><li class="leaf menu-item-1251"><a href="http://learn.parallax.com/KickStart/28500">GPS Module PMB-648</a></li><li class="leaf menu-item-1255"><a href="http://learn.parallax.com/KickStart/27911">Gyroscope Module 3-Axis</a></li><li class="leaf menu-item-1260"><a href="http://learn.parallax.com/KickStart/28017">Memsic 2125 Dual-axis Accelerometer</a></li><li class="leaf menu-item-943"><a href="http://learn.parallax.com/KickStart/28015">PING))) Ultrasonic Distance Sensor</a></li><li class="leaf menu-item-1263"><a href="http://learn.parallax.com/KickStart/555-28027">PIR Sensor</a></li><li class="leaf menu-item-1297"><a href="http://learn.parallax.com/KickStart/900-00008">Parallax Continuous Rotation Servo</a></li><li class="leaf menu-item-1262"><a href="http://learn.parallax.com/KickStart/900-00005">Parallax Standard Servo</a></li><li class="leaf menu-item-1298"><a href="http://learn.parallax.com/KickStart/28048">Polar Heart Rate Receiver</a></li><li class="leaf menu-item-1296"><a href="http://learn.parallax.com/KickStart/555-27401">QTI Sensor</a></li><li class="leaf menu-item-1295"><a href="http://learn.parallax.com/KickStart/29132">Sound Impact Sensor</a></li><li class="leaf menu-item-1264"><a href="http://learn.parallax.com/KickStart/32440">XBee Wireless Pack</a></li><li class="leaf menu-item-1252"><a href="http://learn.parallax.com/KickStart/ArduinoLibraries">Using Arduino Object Libraries</a></li><li class="leaf menu-item-1253"><a href="http://learn.parallax.com/KickStart/PropellerObjects">Using Propeller Objects</a></li><li class="last leaf menu-item-1254"><a href="http://learn.parallax.com/KickStart/ParallaxSerialTerminal">Using the Parallax Serial Terminal</a></li></ul>    </div>
+  </div>
+</nav>
+  </div>
+
+    </div></div> <!-- /columns -->
+
+     <!-- /tertiary-content -->
+
+    <!-- Four column Gpanel -->
+    
+          <footer id="footer" role="contentinfo"><div id="footer-inner" class="clearfix">
+          <div class="region region-footer">
+    <div id="block-block-9" class="block block-block block-odd block-count-9 block-region-footer">
+  <div class="block-inner clearfix">
+                <div class="block-content content">
+      <p><a href="http://learn.parallax.com/terms">Terms of Use</a> ♦ Feedback: <a href="mailto:learn@parallax.com?subject=Email%20from%20learn.parallax.com">learn@parallax.com</a></p>
+<p>Copyright©Parallax Inc. 2012 (unless otherwise noted)</p>
+    </div>
+  </div>
+</div>
+  </div>
+ <!-- /footer region -->
+      </div></footer> <!-- /footer/footer-inner -->
+    
+  </div> <!-- /page -->
+</div> <!-- /texture overlay -->  
+</body></html>

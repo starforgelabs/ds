@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)http://learn.parallax.com/kickstart/27911 -->
+<html lang="en" dir="ltr" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" class="js"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<link rel="shortcut icon" href="http://learn.parallax.com/sites/default/files/RedCheck.png" type="image/png">
+<meta content="Gyroscope Module 3-Axis L3G4200D" about="/KickStart/27911" property="dc:title">
+<link rel="canonical" href="http://learn.parallax.com/KickStart/27911">
+<meta name="Generator" content="Drupal 7 (http://drupal.org)">
+<link rel="shortlink" href="http://learn.parallax.com/node/326">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="MobileOptimized" content="width">
+<meta name="HandheldFriendly" content="true">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="cleartype" content="on">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<title>Gyroscope Module 3-Axis L3G4200D | learn.parallax.com</title>
+<link type="text/css" rel="stylesheet" href="./Kickstart Examples_files/css_CKoWqiBj9gVXhPuDSnNphuEB0b0J2To76x0pX0EGqn4.css" media="all">
+<link type="text/css" rel="stylesheet" href="./Kickstart Examples_files/css_72mmUNqAcm1Vw-3f93p8mgj3b3zvluUWpD8asbiQYtw.css" media="all">
+<link type="text/css" rel="stylesheet" href="./Kickstart Examples_files/css_L9DlDeYSMj2TyMjJuGgObWDWFwt8T0VdOD3gSSdA1cY.css" media="all">
+<link type="text/css" rel="stylesheet" href="./Kickstart Examples_files/css_RfI5io1KD5uNJ-Qd7PfPjKzzWU6QJ-bnhMf1SYFwCDY.css" media="all">
+<link type="text/css" rel="stylesheet" href="./Kickstart Examples_files/css_FpAdjoDeDrKkSU7vug46fvlyuc_RtdVkBK3u1vhfjjc.css" media="screen">
+<script type="text/javascript" async="" src="./Kickstart Examples_files/ga.js"></script><script src="./Kickstart Examples_files/js_3jHghlMLrjr9xXAC0JufqSSch3oAbkZstSqYdc4uuck.js"></script>
+<script src="./Kickstart Examples_files/js_XvZ0RrxZLHLxItg0vlhrc8bnF7vxYX7tuaMpooGXvbw.js"></script>
+<script src="./Kickstart Examples_files/js_HVC-uaMVNXeksyXgpNKfkqsVyshZ9D6T4_rdNdoO43c.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"pixture_reloaded","theme_token":"xBGe4PDsOu8uws3RYMxFe_C78_HKMn0kMVPX-6d2fr8","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/vertical-tabs.js":1,"sites\/all\/modules\/google_analytics\/js\/google_analytics.js":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/adaptivetheme\/js\/respond.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/ckedit_styles\/css\/learn_ckedit_styles.css":1,"modules\/book\/book.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/poll\/poll.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/print\/css\/printlinks.css":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/adaptivetheme\/css\/at.base.css":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/adaptivetheme\/css\/at.layout.css":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/adaptivetheme\/css\/at.messages.css":1,"sites\/all\/themes\/pixture_reloaded\/color\/colors.css":1,"sites\/all\/themes\/pixture_reloaded\/css\/pixture_reloaded.css":1,"sites\/all\/themes\/pixture_reloaded\/css\/pixture_reloaded.settings.style.css":1,"public:\/\/at_css\/pixture_reloaded.responsive.layout.css":1,"sites\/all\/themes\/pixture_reloaded\/css\/pixture_reloaded.responsive.style.css":1,"sites\/all\/themes\/pixture_reloaded\/css\/pixture_reloaded.responsive.gpanels.css":1}}});</script>
+<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<style type="text/css"></style></head>
+<body class="html not-front not-logged-in two-sidebars page-node page-node- page-node-326 page-type-kickstarts section-kickstart color-scheme-custom pixture-reloaded fs-medium bs-n bb-n mb-dd mbp-c rc-4 ia-n bf-ssl snf-sl ssf-sl ptf-sl ntf-sl ctf-sl btf-sl hs-ts">
+  <div id="skip-link">
+    <a href="http://learn.parallax.com/kickstart/27911#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div class="texture-overlay">
+  <div id="page" class="container">
+
+    <header id="header" class="clearfix" role="banner">
+      <div class="header-inner clearfix">
+        <div id="branding">
+                      <div id="logo"><a href="http://learn.parallax.com/" title="Home page"><img src="./Kickstart Examples_files/ParallaxLogo100.png" alt="learn.parallax.com logo"></a></div>
+                                <hgroup>
+                              <h1 id="site-name"><a href="http://learn.parallax.com/" title="Home page">learn.parallax.com</a></h1>
+                                        </hgroup>
+                  </div>
+          <div class="region region-header">
+    <div id="block-search-form" class="block block-search block-odd block-count-1 block-region-header" role="search">
+  <div class="block-inner clearfix">
+                <div class="block-content content">
+      <form action="http://learn.parallax.com/KickStart/27911" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="search" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text">
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit"></div><input type="hidden" name="form_build_id" value="form--O6BGYHOWVHLvJzxO4UJSR1U1SP4Q_5AJN9rHdkX0WY">
+<input type="hidden" name="form_id" value="search_block_form">
+</div>
+</div></form>    </div>
+  </div>
+</div>
+  </div>
+ <!-- /header region -->
+      </div>
+    </header> <!-- /header -->
+
+      <div id="menu-bar" class="nav clearfix">
+      <nav id="block-system-main-menu" class="block block-system block-menu block-odd block-count-2 block-region-menu-bar clearfix">
+              <h2 class="block-title element-invisible">Main Menu</h2>
+            <div class="menu-wrapper clearfix"><ul class="menu clearfix"><li class="first leaf menu-item-1493"><a href="http://learn.parallax.com/learn/home" title="">LEARN</a></li><li class="leaf menu-item-1443"><a href="http://learn.parallax.com/projects" title="">PROJECTS</a></li><li class="leaf menu-item-1464"><a href="http://learn.parallax.com/contest/home" title="">CONTESTS</a></li><li class="leaf menu-item-1484"><a href="http://learn.parallax.com/inspiration/home" title="">INSPIRATION</a></li><li class="leaf menu-item-1232"><a href="http://learn.parallax.com/events" title="">CLASSES &amp; EVENTS</a></li><li class="last leaf menu-item-1535"><a href="http://www.parallax.com/" title="">PARALLAX STORE</a></li></ul></div>
+  </nav>
+  </div>
+ <!-- /menu bar -->
+
+     <!-- /message -->
+     <!-- /help -->
+
+          <nav id="breadcrumb"><h2 class="element-invisible">You are here</h2><ol id="crumbs"><li class="crumb"><a href="http://learn.parallax.com/">Home</a></li></ol></nav> <!-- /breadcrumb -->
+    
+     <!-- /secondary-content -->
+
+    <!-- Three column 3x33 Gpanel -->
+    
+    <div id="columns"><div class="columns-inner clearfix">
+      <div id="content-column"><div class="content-inner">
+
+         <!-- /highlight -->
+
+                <section id="main-content" role="main">
+
+                                <header class="clearfix">
+                              <h1 id="page-title">Gyroscope Module 3-Axis L3G4200D</h1>
+                                        </header>
+                    
+            <div class="region region-content">
+    <div id="block-system-main" class="block block-system block-odd block-count-3 block-region-content">
+  <div class="block-inner clearfix">
+                <div class="block-content content">
+      <article id="article-326" class="article article-type-kickstarts odd article-full clearfix" about="/KickStart/27911" typeof="sioc:Item foaf:Document" role="article">
+
+  
+      
+      <footer class="submitted">
+            <p class="author-datetime"><span property="dc:date dc:created" content="2012-05-10T13:46:39-07:00" datatype="xsd:dateTime" rel="sioc:has_creator">Submitted by <span class="username" xml:lang="" about="/user/48" typeof="sioc:UserAccount" property="foaf:name">Gordon McComb</span> on <time datetime="2012-05-10T13:46:39Z" pubdate="pubdate">Thu, 05/10/2012 - 13:46</time></span></p>
+    </footer>
+  
+  <div class="article-content">
+  <span class="print-link"></span><div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even" property="content:encoded"><p><img alt="3-Axis Gyroscope Module from Parallax Inc. (#27911)" src="./Kickstart Examples_files/Gyro-1.png" title="3-Axis Gyroscope Module from Parallax Inc. (#27911)" height="283" width="300"></p>
+<p><strong>Item code: 27911</strong></p>
+<hr>
+<h2>What It Can Do</h2>
+<ul>
+<li>Modular angular rate sensor tracks motion in three axes</li>
+<li>Three selectable measurement scales, with rates up to 2000° per second</li>
+<li>Built-in temperature sensor; can be used separately, or for temperature drift compensation</li>
+</ul>
+<p>The 3-Axis Gyroscope module provides separate data values for yaw, pitch, and roll. Motion is indicated as a positive or negative value, depending on the direction of rotation. The sensor is useful in 3D simulation, virtual gaming input devices, robotics, and for remotely controlled or unpiloted aircraft and submersibles.</p>
+<p><img alt="X, Y, and Z axes of the Parallax 3-Axis Gyroscope Module" src="./Kickstart Examples_files/Gyro-2.png" title="X, Y, and Z axes of the Parallax 3-Axis Gyroscope Module" height="205" width="271"></p>
+<p><span class="notebox">Gyroscopes are commonly uses with multi-axis accelerometers, where the data from both sensors can provide useful information detailing speed and direction of travel. The <a href="http://www.parallax.com/tabid/768/ProductID/93/Default.aspx" target="_blank">Memsic 2125 Dual-axis Accelerometer</a> and <a href="http://www.parallax.com/tabid/768/ProductID/585/Default.aspx" target="_blank">MMA7455 3-Axis Accelerometer Module</a> are good companion accelerometers for the 3-Axis Gyroscope module.</span></p>
+<hr>
+<h2>Parts List</h2>
+<ul>
+<li>3-Axis Gyroscope module</li>
+<li>BASIC Stamp HomeWork Board, Propeller BOE,&nbsp;Propeller QuickStart, or Arduino Uno microcontroller (with breadboard, as needed)</li>
+<li>22 gauge solid conductor hookup wire</li>
+</ul>
+<hr>
+<h2>Basic Wiring</h2>
+<p><img alt="3-Axis Gyroscope Module wiring diagram" src="./Kickstart Examples_files/Gyro-3.png" title="3-Axis Gyroscope Module wiring diagram" height="240" width="281"></p>
+<ul>
+<li>Power Requirements: 2.7 to 6.5 VDC</li>
+<li>Communication Interface: I2C (up to 400 kHz) or SPI (10 MHz; 4 &amp; 3 wire)</li>
+<li>Dimensions: 0.85 X 0.80 in (2.16 X 2.03 cm)</li>
+</ul>
+<hr>
+<h2>Program KickStarts</h2>
+<p>The KickStart examples display raw data output for each of the three axes. Values are retrieved from the module using the I2C interface.</p>
+<h3>BASIC Stamp HomeWork Board</h3>
+<p><img alt="3-Axis Gyroscope Module wiring diagram for BASIC Stamp HomeWork Board" src="./Kickstart Examples_files/Gyro-4.png" title="3-Axis Gyroscope Module wiring diagram for BASIC Stamp HomeWork Board" height="293" width="283"></p>
+<p><a class="BS2" href="http://learn.parallax.com/sites/default/files/content/kickstart/code/Gyro-BS2.bs2" title="Download BASIC Stamp 2 code for the 3-Axis Gyroscope Module">Download BASIC Stamp 2 code for the 3-Axis Gyroscope Module</a></p>
+<pre class="BS2">' {$STAMP BS2}
+' {$PBASIC 2.5}
+
+SDA            PIN      0       ' SDA of gyro connected to P0
+SCL            PIN      1       ' SCL of gyro connected to P1
+
+WRITE_Data     CON      $D2     ' Request Write operation
+READ_Data      CON      $D3     ' Request Read operation
+
+' Control registers
+CTRL_REG1      CON      $20
+CTRL_REG2      CON      $21
+CTRL_REG3      CON      $22
+CTRL_REG4      CON      $23
+STATUS_REG     CON      $27
+OUT_X_INC      CON      $A8
+
+X              VAR      Word
+Y              VAR      Word
+Z              VAR      Word
+rawl           VAR      Word
+rawh           VAR      Word
+
+' Variables for I2C communications
+I2C_DATA       VAR      Byte
+I2C_LSB        VAR      Bit
+I2C_REG        VAR      Byte
+I2C_VAL        VAR      Byte
+
+PAUSE 100                       ' Power up delay
+
+' Set up data ready signal
+I2C_REG = CTRL_REG3
+I2C_VAL = $08
+GOSUB I2C_Write_Reg
+
+' Set up "block data update" mode
+I2C_REG = CTRL_REG4
+I2C_VAL = $80
+GOSUB I2C_Write_Reg
+
+' Send the get continuous output command
+I2C_REG = CTRL_REG1
+I2C_VAL = $1F
+GOSUB I2C_Write_Reg
+
+DO
+  GOSUB Gyro_Get_Raw                       ' Get XYZ data
+
+  ' Divide X Y Z, by 114 to reduce noise
+  IF (X.BIT15) THEN
+    X = (ABS X) / 114
+    X = -X
+  ELSE
+    X = X / 114
+  ENDIF
+  IF (Y.BIT15) THEN
+    Y = (ABS Y) / 114
+    Y = -Y
+  ELSE
+    Y = Y / 114
+  ENDIF
+  IF (Z.BIT15) THEN
+    Z = (ABS Z) / 114
+    Z = -Z
+  ELSE
+    Z = Z / 114
+  ENDIF
+
+  DEBUG HOME, "RAW X = ",11, SDEC X, CR   ' Display data
+  DEBUG "RAW Y = ",11, SDEC Y, CR
+  DEBUG "RAW Z = ",11, SDEC Z, CR
+
+  PAUSE 250
+
+LOOP
+
+Gyro_Get_Raw:
+  GOSUB Wait_For_Data_Ready
+
+  GOSUB I2C_Start
+
+  I2C_DATA = WRITE_DATA
+  GOSUB I2C_Write                         ' Read the data starting 
+  I2C_DATA = OUT_X_INC				'   at pointer register
+  GOSUB I2C_Write
+
+  GOSUB I2C_Stop
+
+  GOSUB I2C_Start
+  I2C_DATA = READ_DATA
+  GOSUB I2C_Write
+
+  GOSUB I2C_Read 
+  rawL = I2C_DATA                         ' Read high byte
+  GOSUB I2C_ACK
+
+  GOSUB I2C_Read 
+  rawH = I2C_DATA                         ' Read low byte
+  GOSUB I2C_ACK
+  X = (rawH &lt;&amp;lt 8) | rawL                  ' OR high and low into X
+
+  ' Do the same for Y and Z:
+  GOSUB I2C_Read
+  rawL = I2C_DATA
+  GOSUB I2C_ACK
+
+  GOSUB I2C_Read
+  rawH = I2C_DATA
+  GOSUB I2C_ACK
+  Y = (rawH &lt;&amp;lt 8) | rawL
+
+  GOSUB I2C_Read
+  rawL = I2C_DATA
+  GOSUB I2C_ACK
+
+  GOSUB I2C_Read
+  rawH = I2C_DATA
+  GOSUB I2C_NACK
+  Z = (rawH &lt;&lt; 8) | rawL
+
+  GOSUB I2C_Stop
+
+RETURN
+
+'---------I2C functions------------
+' Read the status register until the ZYXDA bit is high
+Wait_For_Data_Ready:
+DO
+  I2C_REG = STATUS_REG
+  GOSUB I2C_Read_Reg
+LOOP UNTIL ((I2C_DATA &amp; $08) &lt;&gt; 0)
+RETURN
+
+' Set I2C_REG &amp; I2C_VAL before calling this
+I2C_Write_Reg:
+  GOSUB I2C_Start
+  I2C_DATA = WRITE_DATA
+  GOSUB I2C_Write
+  I2C_DATA = I2C_REG
+  GOSUB I2C_Write
+  I2C_DATA = I2C_VAL
+  GOSUB I2C_Write
+  GOSUB I2C_Stop
+RETURN
+
+' Set I2C_REG before calling this, I2C_DATA will have result
+I2C_Read_Reg:
+  GOSUB I2C_Start
+  I2C_DATA = WRITE_DATA
+  GOSUB I2C_Write
+  I2C_DATA = I2C_REG
+  GOSUB I2C_Write
+  GOSUB I2C_Stop
+  GOSUB I2C_Start
+  I2C_DATA = READ_DATA
+  GOSUB I2C_Write
+  GOSUB I2C_Read
+  GOSUB I2C_NACK
+  GOSUB I2C_Stop
+RETURN
+
+I2C_Start:
+  LOW SDA
+  LOW SCL
+RETURN
+
+I2C_Stop:
+  LOW   SDA
+  INPUT SCL
+  INPUT SDA
+RETURN
+
+I2C_ACK:
+  LOW   SDA
+  INPUT SCL
+  LOW   SCL
+  INPUT SDA
+RETURN
+
+I2C_NACK:
+  INPUT SDA
+  INPUT SCL
+  LOW   SCL
+RETURN
+
+I2C_Read:
+  SHIFTIN SDA, SCL, MSBPRE, [I2C_DATA]
+  RETURN
+
+I2C_Write:
+  I2C_LSB = I2C_DATA.BIT0
+  I2C_DATA = I2C_DATA / 2
+  SHIFTOUT SDA, SCL, MSBFIRST, [I2C_DATA\7]
+  IF I2C_LSB THEN INPUT SDA ELSE LOW SDA
+  INPUT SCL
+  LOW SCL
+  INPUT SDA
+  INPUT SCL
+  LOW SCL
+RETURN</pre><p><span class="notebox">When this program is run the BASIC Stamp Debug Terminal will automatically open.</span></p>
+<h3>Propeller BOE and Propeller QuickStart</h3>
+<h6><img alt="3-Axis Gyroscope Module wiring diagram for Propeller BOE" src="./Kickstart Examples_files/Gyro_PropBOE_0.png" title="3-Axis Gyroscope Module wiring diagram for Propeller BOE" height="338" width="280"><br><em>Propeller BOE Wiring Diagram</em></h6>
+<p>&nbsp;</p>
+<hr>
+<h6><br><img alt="3-Axis Gyroscope Module wiring diagram for Propeller QuickStart board" src="./Kickstart Examples_files/Gyro-5.png" title="3-Axis Gyroscope Module wiring diagram for Propeller QuickStart board" height="388" width="348"><br><em>Propeller QuickStart Wiring Diagram</em></h6>
+<p>&nbsp;</p>
+<p><a class="Spin" href="http://learn.parallax.com/sites/default/files/content/kickstart/code/Gyro-Propeller.spin" title="Download Propeller Spin code for the 3-Axis Gyroscope Module">Download Propeller Spin code for the 3-Axis Gyroscope Module</a></p>
+<pre class="Spin">OBJ
+
+  pst          : "FullDuplexSerial"
+
+CON
+
+  _clkmode      = xtal1 + pll16x
+  _clkfreq      = 80_000_000
+
+  SDApin         = 0            ' SDA of gyro connected to P0          
+  SCLpin         = 1            ' SCL of gyro connected to P1 
+
+  WRITE         = $D2           ' Request Write operation
+  READ          = $D3           ' Request Read operation
+
+  ' Control registers
+  CTRL_REG1     = $20 
+  CTRL_REG2     = $21
+  CTRL_REG3     = $22
+  CTRL_REG4     = $23
+  STATUS_REG    = $27    
+  OUT_X_INC     = $A8
+
+  x_idx = 0
+  y_idx = 1
+  z_idx = 2
+    
+VAR
+
+  long x
+  long y
+  long z
+   
+  long cx
+  long cy
+  long cz
+   
+  long ff_x
+  long ff_y
+  long ff_z
+   
+  long multiBYTE[3]
+      
+PUB Go | last_ticks
+
+  pst.start(31, 30, 0, 115200)
+
+  ' Set modes
+  Wrt_1B(CTRL_REG3, $08)                    ' Data ready signal
+  Wrt_1B(CTRL_REG4, $80)                    ' Block data update 
+  Wrt_1B(CTRL_REG1, $1F)                    ' Enable all axes
+
+  last_ticks := cnt
+
+  repeat
+    pst.tx(1)                               ' Set Terminal data 
+    WaitForDataReady 			        '  at top of screen
+    Read_MultiB(OUT_X_INC)                  ' Read XYZ bytes
+
+    ' Divide by 114 to reduce noise
+    x := (x - cx) / 114
+    y := (y - cy) / 114
+    z := (z - cz) / 114
+    
+    RawXYZ
+    WaitCnt(ClkFreq / 4  + Cnt)             ' Delay before next loop
+   
+PUB RawXYZ
+  'Display Raw X,Y,Z data
+
+  pst.str(string("RAW X ",11))                                                 
+  pst.dec(x)
+       
+  pst.str(string(13, "RAW Y ",11))
+  pst.dec(y)
+        
+  pst.str(string(13, "RAW Z ",11))
+  pst.dec(z)
+
+
+'' Below here routines to support I2C interfacing
+    
+PUB WaitForDataReady | status
+    repeat
+      status := Read_1B(STATUS_REG)
+      if (status &amp; $08) == $08
+        quit
+                        
+PUB Wrt_1B(SUB1, data)
+  ''Write single byte to Gyroscope.
+  
+      start
+      send(WRITE)
+      send(SUB1)
+      send(data)
+      stop
+ 
+PUB Read_1B(SUB3) | rxd
+ ''Read single byte from Gyroscope
+
+      start
+      send(WRITE)
+      send(SUB3)
+      stop
+
+      start
+      send(READ)
+      rxd := receive(false)
+      stop
+  
+     result := rxd
+
+PUB Read_MultiB(SUB3) 
+ ''Read multiple bytes from Gyroscope
+
+     start
+      send(WRITE)
+      send(SUB3)
+      stop
+
+      start
+      send(READ)
+      multiBYTE[x_idx] := (receive(true)) |  (receive(true)) &lt;&lt; 8
+      multiBYTE[y_idx] := (receive(true)) |  (receive(true)) &lt;&lt; 8                                                                                 
+      multiBYTE[z_idx] := (receive(true)) |  (receive(false)) &lt;&lt; 8 
+      stop
+  
+      x := ~~multiBYTE[x_idx]
+      y := ~~multiBYTE[y_idx]
+      z := ~~multiBYTE[z_idx]
+
+PRI send(value)
+
+  value := ((!value) &gt;&lt; 8)
+
+  repeat 8
+    dira[SDApin]       := value
+    dira[SCLpin]       := false
+    dira[SCLpin]       := true
+    value &gt;&gt;= 1
+
+  dira[SDApin]         := false
+  dira[SCLpin]         := false
+  result               := not(ina[SDApin])
+  dira[SCLpin]         := true
+  dira[SDApin]         := true
+
+PRI receive(aknowledge)
+
+  dira[SDApin]         := false
+
+  repeat 8
+    result &lt;&lt;= 1
+    dira[SCLpin]       := false
+    result             |= ina[SDApin]
+    dira[SCLpin]       := true
+
+  dira[SDApin]         := (aknowledge)
+  dira[SCLpin]         := false
+  dira[SCLpin]         := true
+  dira[SDApin]         := true
+
+PRI start
+
+  outa[SDApin]         := false
+  outa[SCLpin]         := false
+  dira[SDApin]         := true
+  dira[SCLpin]         := true
+
+PRI stop
+
+  dira[SCLpin]         := false
+  dira[SDApin]         := false</pre><p><span class="notebox">To view the results of the demonstration, after uploading is complete run the Parallax Serial Terminal from the Run menu, or press F12. Click the Enable button in the Terminal window, then momentarily depress the Reset button on the Propeller QuickStart board to restart the program.</span></p>
+<h3>Arduino Uno</h3>
+<p><img alt="3-Axis Gyroscope Module wiring diagram for Arduino Uno" src="./Kickstart Examples_files/Gyro-6_0.png" title="3-Axis Gyroscope Module wiring diagram for Arduino Uno" height="300" width="550"></p>
+<p><a class="Arduino" href="http://learn.parallax.com/sites/default/files/content/kickstart/code/Gyroscope_Arduino_10.zip" title="Download Arduino 1.0 Code for the 3-Axis Gyroscope Module">Download Arduino 1.0 Code for the 3-Axis Gyroscope Module</a></p>
+<p><a class="Arduino" href="http://learn.parallax.com/sites/default/files/content/kickstart/code/Gyro_Arduino.zip" title="Download Arduino Pre-release Version Code for the 3-Axis Gyroscope Module">Download Arduino Pre-release Version Code for the 3-Axis Gyroscope Module</a></p>
+<pre class="Arduino">#include &lt;Wire.h&gt;
+
+#define CTRL_REG1 0x20
+#define CTRL_REG2 0x21
+#define CTRL_REG3 0x22
+#define CTRL_REG4 0x23
+
+int Addr = 105;                 // I2C address of gyro
+int x, y, z;
+
+void setup(){
+  Wire.begin();
+  Serial.begin(9600);
+  writeI2C(CTRL_REG1, 0x1F);    // Turn on all axes, disable power down
+  writeI2C(CTRL_REG3, 0x08);    // Enable control ready signal
+  writeI2C(CTRL_REG4, 0x80);    // Set scale (500 deg/sec)
+  delay(100);                   // Wait to synchronize 
+}
+
+void loop(){
+  getGyroValues();              // Get new values
+  // In following Dividing by 114 reduces noise
+  Serial.print("Raw X:");  Serial.print(x / 114);  
+  Serial.print(" Raw Y:"); Serial.print(y / 114);
+  Serial.print(" Raw Z:"); Serial.println(z / 114);
+  delay(500);                   // Short delay between reads
+}
+
+void getGyroValues () {
+  byte MSB, LSB;
+
+  MSB = readI2C(0x29);
+  LSB = readI2C(0x28);
+  x = ((MSB &lt;&lt; 8) | LSB);
+
+  MSB = readI2C(0x2B);
+  LSB = readI2C(0x2A);
+  y = ((MSB &lt;&lt; 8) | LSB);
+
+  MSB = readI2C(0x2D);
+  LSB = readI2C(0x2C);
+  z = ((MSB &lt;&lt; 8) | LSB);
+}
+
+int readI2C (byte regAddr) {
+    Wire.beginTransmission(Addr);
+    Wire.write(regAddr);                // Register address to read
+    Wire.endTransmission();             // Terminate request
+    Wire.requestFrom(Addr, 1);          // Read a byte
+    while(!Wire.available()) { };       // Wait for receipt
+    return(Wire.read());                // Get result
+}
+
+void writeI2C (byte regAddr, byte val) {
+    Wire.beginTransmission(Addr);
+    Wire.write(regAddr);
+    Wire.write(val);
+    Wire.endTransmission();
+}</pre><p><span class="notebox">To view the results of the demonstration, after uploading is complete click the Serial Monitor icon in the Arduino IDE. This displays the Serial Monitor window. Momentarily depress the Reset button on the Arduino board to restart the sketch.</span></p>
+<hr>
+<h2>For More Information</h2>
+<h3>Useful links:</h3>
+<ul>
+<li><a href="http://www.parallax.com/tabid/172/ProductID/778/Default.aspx" target="_blank">3-Axis Gyroscope data sheet</a></li>
+<li>More information on gyroscopes and inertial navigation may be found on <a href="http://en.wikipedia.org/wiki/Gyroscope" target="_blank">Wikipedia: Gyroscope</a></li>
+</ul>
+<hr>
+<p>&nbsp;</p>
+</div></div></div><div class="field field-name-field-cc-sa field-type-taxonomy-term-reference field-label-hidden view-mode-full clearfix">
+    <ul class="field-items">
+          <li class="field-item even">
+        Copyright: Creative Commons 3.0 SA license      </li>
+      </ul>
+</div>
+  </div>
+
+      <nav class="clearfix"><ul class="links inline"><li class="print_html first last"><a href="http://learn.parallax.com/print/326" title="Display a printer-friendly version of this page." class="print-page" rel="nofollow">Printer-friendly version</a></li></ul></nav>
+  
+  
+</article>
+    </div>
+  </div>
+</div>
+  </div>
+ <!-- /content -->
+
+           <!-- /feed icons -->
+
+        </section> <!-- /main-content -->
+
+         <!-- /content-aside -->
+
+      </div></div> <!-- /content-column -->
+
+        <div class="region region-sidebar-first sidebar">
+    <nav id="block-menu-menu-learn" class="block block-menu block-odd block-count-4 block-region-sidebar-first" role="navigation">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Learn</h2>
+            <div class="block-content content">
+      <ul class="menu clearfix"><li class="first leaf menu-item-1504"><a href="http://learn.parallax.com/learn/home" title="">Learn Home</a></li><li class="collapsed menu-item-1487"><a href="http://learn.parallax.com/propeller-board-education" title="">Propeller BOE Tutorials</a></li><li class="collapsed menu-item-1488"><a href="http://learn.parallax.com/BOEShield" title="">BOE Shield Tutorials</a></li><li class="leaf menu-item-1486"><a href="http://learn.parallax.com/KickStart" title="">Microcontroller KickStarts</a></li><li class="last leaf menu-item-1494"><a href="http://learn.parallax.com/reference/home">Reference</a></li></ul>    </div>
+  </div>
+</nav>
+<section id="block-block-5" class="block block-block block-even block-count-5 block-region-sidebar-first">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">BASIC Stamp Resources</h2>
+            <div class="block-content content">
+      <p><a href="http://www.parallax.com/basicstampsoftware" target="_blank">Download the BASIC Stamp Editor►</a></p>
+<p><a href="http://www.parallax.com/go/BASICStampStartHelp" target="_blank">Connect &amp; Test your Board►</a></p>
+<p><a href="http://www.parallax.com/go/BASICStampConnectHelp" target="_blank">Connection Troubleshooting►</a></p>
+<p><a href="http://www.parallax.com/go/PBASICHelp" target="_blank">PBASIC Language Reference►</a></p>
+<p><a href="http://www.parallax.com/tabid/136/ProductID/313/Default.aspx" target="_blank">Buy a BASIC Stamp kit►</a></p>
+<p><a href="http://www.parallax.com/go/wam" target="_blank">What's a Microcontroller?►</a></p>
+<p><a href="http://www.parallax.com/go/boe-bot" target="_blank">Robotics with the Boe-Bot►</a></p>
+    </div>
+  </div>
+</section>
+<section id="block-block-6" class="block block-block block-odd block-count-6 block-region-sidebar-first">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Propeller BOE Resources</h2>
+            <div class="block-content content">
+      <p><a href="http://www.parallax.com/propboe" target="_blank">Buy a Propeller Board of Education</a><a href="http://www.parallax.com/propboe">►</a></p>
+<p><a href="http://www.parallax.com/propellertool" target="_blank">Download Propeller Tool Software</a><a href="http://www.parallax.com/propellertool">►</a></p>
+<p><a href="http://www.parallax.com/propeller/qna" target="_blank">Open the Propeller Q &amp; A</a><a href="http://www.parallax.com/propeller/qna">►</a></p>
+<p><a href="http://www.parallax.com/propeller"><span id="cke_bm_69E" style="display: none;">&nbsp;</span></a></p>
+    </div>
+  </div>
+</section>
+<section id="block-block-7" class="block block-block block-even block-count-7 block-region-sidebar-first">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">BOE Shield Resources</h2>
+            <div class="block-content content">
+      <p><a href="http://www.parallax.com/BOEShield" target="_blank">Buy a BOE Shield►</a></p>
+<p><a href="http://www.arduino.cc/" target="_blank">Download Arduino Software►</a></p>
+<p><a href="http://arduino.cc/en/Reference/HomePage" target="_blank">Open Arduino Reference►</a></p>
+<p><a href="http://www.robotc.net/download/arduino/" target="_blank">Download ROBOTC for Arduino►</a></p>
+    </div>
+  </div>
+</section>
+  </div>
+        <div class="region region-sidebar-second sidebar">
+    <nav id="block-menu-menu-micrcontroller-kickstarts" class="block block-menu block-odd block-count-8 block-region-sidebar-second" role="navigation">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Microcontroller KickStarts</h2>
+            <div class="block-content content">
+      <ul class="menu clearfix"><li class="first leaf menu-item-898"><a href="http://learn.parallax.com/KickStart">Microcontroller KickStarts Home</a></li><li class="leaf menu-item-1247"><a href="http://learn.parallax.com/KickStart/27800">2-Axis Joystick</a></li><li class="leaf menu-item-1258"><a href="http://learn.parallax.com/KickStart/27977">2x16 Serial LCD (Backlit) with Speaker</a></li><li class="leaf menu-item-1294"><a href="http://learn.parallax.com/KickStart/28036">4-Directional Tilt Sensor</a></li><li class="leaf menu-item-1259"><a href="http://learn.parallax.com/KickStart/27801">5-Position Switch</a></li><li class="leaf menu-item-1249"><a href="http://learn.parallax.com/KickStart/29124">Altimeter Module</a></li><li class="leaf menu-item-1250"><a href="http://learn.parallax.com/KickStart/29133">Compass Module 3-Axis</a></li><li class="leaf menu-item-1251"><a href="http://learn.parallax.com/KickStart/28500">GPS Module PMB-648</a></li><li class="leaf active-trail menu-item-1255"><a href="http://learn.parallax.com/KickStart/27911" class="active-trail active">Gyroscope Module 3-Axis</a></li><li class="leaf menu-item-1260"><a href="http://learn.parallax.com/KickStart/28017">Memsic 2125 Dual-axis Accelerometer</a></li><li class="leaf menu-item-943"><a href="http://learn.parallax.com/KickStart/28015">PING))) Ultrasonic Distance Sensor</a></li><li class="leaf menu-item-1263"><a href="http://learn.parallax.com/KickStart/555-28027">PIR Sensor</a></li><li class="leaf menu-item-1297"><a href="http://learn.parallax.com/KickStart/900-00008">Parallax Continuous Rotation Servo</a></li><li class="leaf menu-item-1262"><a href="http://learn.parallax.com/KickStart/900-00005">Parallax Standard Servo</a></li><li class="leaf menu-item-1298"><a href="http://learn.parallax.com/KickStart/28048">Polar Heart Rate Receiver</a></li><li class="leaf menu-item-1296"><a href="http://learn.parallax.com/KickStart/555-27401">QTI Sensor</a></li><li class="leaf menu-item-1295"><a href="http://learn.parallax.com/KickStart/29132">Sound Impact Sensor</a></li><li class="leaf menu-item-1264"><a href="http://learn.parallax.com/KickStart/32440">XBee Wireless Pack</a></li><li class="leaf menu-item-1252"><a href="http://learn.parallax.com/KickStart/ArduinoLibraries">Using Arduino Object Libraries</a></li><li class="leaf menu-item-1253"><a href="http://learn.parallax.com/KickStart/PropellerObjects">Using Propeller Objects</a></li><li class="last leaf menu-item-1254"><a href="http://learn.parallax.com/KickStart/ParallaxSerialTerminal">Using the Parallax Serial Terminal</a></li></ul>    </div>
+  </div>
+</nav>
+  </div>
+
+    </div></div> <!-- /columns -->
+
+     <!-- /tertiary-content -->
+
+    <!-- Four column Gpanel -->
+    
+          <footer id="footer" role="contentinfo"><div id="footer-inner" class="clearfix">
+          <div class="region region-footer">
+    <div id="block-block-9" class="block block-block block-odd block-count-9 block-region-footer">
+  <div class="block-inner clearfix">
+                <div class="block-content content">
+      <p><a href="http://learn.parallax.com/terms">Terms of Use</a> ♦ Feedback: <a href="mailto:learn@parallax.com?subject=Email%20from%20learn.parallax.com">learn@parallax.com</a></p>
+<p>Copyright©Parallax Inc. 2012 (unless otherwise noted)</p>
+    </div>
+  </div>
+</div>
+  </div>
+ <!-- /footer region -->
+      </div></footer> <!-- /footer/footer-inner -->
+    
+  </div> <!-- /page -->
+</div> <!-- /texture overlay -->  
+</body></html>
